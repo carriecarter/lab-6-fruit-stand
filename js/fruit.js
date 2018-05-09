@@ -6,7 +6,7 @@ var fruits = [
         img: 'images/apple.png',
         name: 'apple',
         origin: 'usa',
-        color: 'green',
+        color: 'red',
         season: 'fall',
         
         createLi: function() {
@@ -25,12 +25,13 @@ var fruits = [
         img: 'images/cherry.png',
         name: 'cherry',
         origin: 'usa',
-        color: 'green',
+        color: '#915766',
         season: 'summer',
         
         createLi: function() {
         var li = document.createElement('li');
         li.textContent = 'origin: ' + this.origin + ' peak season ' + this.season;
+        li.style.color = this.color;
         return li;
         },
         fruitImage: function () {
@@ -43,12 +44,13 @@ var fruits = [
         img: 'images/grapes.png',
         name: 'grapes',
         origin: 'france',
-        color: 'purple',
+        color: 'violet',
         season: 'spring',
         
         createLi: function() {
         var li = document.createElement('li');
         li.textContent = 'origin: ' + this.origin + ' peak season ' + this.season;
+        li.style.color = this.color;
         return li; 
         },
         fruitImage: function () {
@@ -61,12 +63,13 @@ var fruits = [
         img: 'images/banana.png',
         name: 'banana',
         origin: 'brazil',
-        color: 'yellow',
+        color: '#BF970E',
         season: 'summer',
         
         createLi: function() {
         var li = document.createElement('li');
         li.textContent = 'origin: ' + this.origin + ' peak season ' + this.season;
+        li.style.color = this.color;
         return li;
         },
         fruitImage: function () {
