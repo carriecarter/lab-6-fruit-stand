@@ -30,7 +30,7 @@ var fruits = [
         
         createLi: function() {
         var li = document.createElement('li');
-        li.textContent = 'origin: ' + this.origin + ' peak season ' + this.season;
+        li.textContent = 'origin: ' + this.origin + ' peak season: ' + this.season;
         li.style.color = this.color;
         return li;
         },
@@ -49,7 +49,7 @@ var fruits = [
         
         createLi: function() {
         var li = document.createElement('li');
-        li.textContent = 'origin: ' + this.origin + ' peak season ' + this.season;
+        li.textContent = 'origin: ' + this.origin + ' peak season: ' + this.season;
         li.style.color = this.color;
         return li; 
         },
@@ -68,7 +68,7 @@ var fruits = [
         
         createLi: function() {
         var li = document.createElement('li');
-        li.textContent = 'origin: ' + this.origin + ' peak season ' + this.season;
+        li.textContent = 'origin: ' + this.origin + ' peak season: ' + this.season;
         li.style.color = this.color;
         return li;
         },
