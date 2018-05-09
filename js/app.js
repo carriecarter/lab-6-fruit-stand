@@ -1,12 +1,15 @@
-'use-strict';
+'use strict';
 /* globals fruits */
 
-function allFruits() {
-    var fruits = document.getElementById("fruit-list");
+function listFruits() {
+    var fruitStandList = document.getElementById('fruit-list');
+
     for(var i = 0; i < fruits.length; i++){
         var li = fruits[i].createLi();
-        list.appendChild(li);
-        
+        var img = fruits[i].fruitImage();
+
+        fruitStandList.appendChild(li);
+        fruits.appendChild(li);
     }
 }
 
@@ -20,4 +23,4 @@ function allFruits() {
 //     console.log('cat' , fruits[0].createLi());
 // }
 
-allFruits();
+listFruits();
