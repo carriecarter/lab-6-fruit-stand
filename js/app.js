@@ -14,14 +14,4 @@ function listFruits() {
 }
 
 
-// function fruitStand() {
-//     var firstFruit = fruits[0];
-//     var fruitList = document.getElementById("fruit-list");
-    
-//     fruitList.appendChild(createLi());
-    
-//     //fruitList.appendChild(fruitStand.createLi());
-//     console.log('cat' , fruits[0].createLi());
-// }
-
 listFruits();
