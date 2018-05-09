@@ -9,9 +9,10 @@ function listFruits() {
         var img = fruits[i].fruitImage();
 
         fruitStandList.appendChild(li);
-        fruits.appendChild(li);
+        fruitStandList.appendChild(img);
     }
 }
+
 
 // function fruitStand() {
 //     var firstFruit = fruits[0];

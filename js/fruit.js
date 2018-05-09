@@ -1,5 +1,5 @@
 'use strict';
-/* exported fruits createLi */
+/* exported fruits */
 
 var fruits = [
     {
@@ -17,47 +17,62 @@ var fruits = [
         },
         fruitImage: function () {
             var img = document.createElement('img');
-            img.setAttribute('src' , this.image);
+            img.setAttribute('src' , this.img);
             return img;
         }    
-    }
-    // {
-    //     img: 'images/cherry.png',
-    //     name: 'cherry',
-    //     origin: 'usa',
-    //     color: 'green',
-    //     season: 'summer',
+    },
+    {
+        img: 'images/cherry.png',
+        name: 'cherry',
+        origin: 'usa',
+        color: 'green',
+        season: 'summer',
         
-    //     createLi: function() {
-    //     var li = document.createElement('li');
-    //     li.textContent = 'origin: ' + this.origin + ' peak season ' + this.season;
-    //     return li;
-    //     }
-    // }
-    // {
-    //     img: 'images/grapes.png',
-    //     name: 'grapes',
-    //     origin: 'france',
-    //     color: 'purple',
-    //     season: 'spring',
+        createLi: function() {
+        var li = document.createElement('li');
+        li.textContent = 'origin: ' + this.origin + ' peak season ' + this.season;
+        return li;
+        },
+        fruitImage: function () {
+            var img = document.createElement('img');
+            img.setAttribute('src' , this.img);
+            return img;
+        }
+    },
+    {
+        img: 'images/grapes.png',
+        name: 'grapes',
+        origin: 'france',
+        color: 'purple',
+        season: 'spring',
         
-    //     createLi: function() {
-    //     var li = document.createElement('li');
-    //     li.textContent = 'origin: ' + this.origin + ' peak season ' + this.season;
-    //     return li; 
-    //     }
-    // },
-    // {
-    //     img: 'images/banana.png',
-    //     name: 'banana',
-    //     origin: 'brazil',
-    //     color: 'yellow',
-    //     season: 'summer',
+        createLi: function() {
+        var li = document.createElement('li');
+        li.textContent = 'origin: ' + this.origin + ' peak season ' + this.season;
+        return li; 
+        },
+        fruitImage: function () {
+            var img = document.createElement('img');
+            img.setAttribute('src' , this.img);
+            return img;
+        }
+    },
+    {
+        img: 'images/banana.png',
+        name: 'banana',
+        origin: 'brazil',
+        color: 'yellow',
+        season: 'summer',
         
-    //     createLi: function() {
-    //     var li = document.createElement('li');
-    //     li.textContent = 'origin: ' + this.origin + ' peak season ' + this.season;
-    //     return li;
-    //     }
-    // },  
+        createLi: function() {
+        var li = document.createElement('li');
+        li.textContent = 'origin: ' + this.origin + ' peak season ' + this.season;
+        return li;
+        },
+        fruitImage: function () {
+            var img = document.createElement('img');
+            img.setAttribute('src' , this.img);
+            return img;
+        }
+    }  
 ];
